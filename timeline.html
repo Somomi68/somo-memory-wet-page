@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>時光軌跡 ｜ 灰白兔子 The Grey & White Bunny</title>
+  <meta name="description" content="記錄長達十年又六個月的溫暖歲月，每一天都是最珍貴的足跡。" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/images/profile/avatar.jpg" type="image/jpeg">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/profile/avatar.jpg" alt="灰白兔子" class="logo-img" />
+        <span>灰白兔子 <span class="logo-sub">｜ The Grey & White Bunny</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">關於小比</a></li>
+        <li><a href="timeline.html" class="active">時光軌跡</a></li>
+        <li><a href="gallery.html">回憶寫真</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Timeline Section -->
+  <main class="section">
+    <div class="container">
+      <div class="section-header" style="margin-top: 1rem;">
+        <span class="section-tag">Memory Timeline</span>
+        <h1 class="section-title">時光軌跡</h1>
+        <p class="section-subtitle">翻開長達十年又六個月的溫暖歲月，每一刻都是生命中最美麗的奇蹟</p>
+      </div>
+
+      <div id="timeline-list" class="timeline-container">
+        <!-- Dynamically populated from data/timeline.json -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox-modal" class="lightbox-modal">
+    <div class="lightbox-content">
+      <button id="lightbox-close-btn" class="lightbox-close" aria-label="關閉視窗">&times;</button>
+      <div class="lightbox-img-wrapper">
+        <img id="lightbox-img" src="" alt="照片大圖" />
+      </div>
+      <div class="lightbox-details">
+        <h3 id="lightbox-title" class="lightbox-title"></h3>
+        <p id="lightbox-caption" class="lightbox-caption"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-quote">“Small paws, endless love, forever home.”</div>
+      <p class="footer-text">灰白兔子 ｜ The Grey & White Bunny (2015.06.08 – 2025.12.27)</p>
+      <button id="back-to-top-btn" class="back-to-top">
+        <span>回到頂部 ⬆️</span>
+      </button>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

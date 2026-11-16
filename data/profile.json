@@ -1,0 +1,24 @@
+{
+  "name": "小比",
+  "gender": "女生 ♀",
+  "breed": "萌兔寶貝 (灰白色 / 蓬鬆白圍巾)",
+  "color": "溫暖灰白相間",
+  "dates": {
+    "birthday": "2015-06-08",
+    "homeArrival": "2015-06-24",
+    "rainbowBridge": "2025-12-27",
+    "yearsOfLove": "10 年又 6 個月 (2015.06 - 2025.12)"
+  },
+  "favorites": {
+    "food": "最愛大口啃櫻桃 🍒",
+    "activities": "最喜歡被溫柔地摸摸頭、在地板上融化成一灘小麻糬",
+    "personality": "優雅獨立、懂事療癒、有自己專屬堅持的小天使"
+  },
+  "dislikes": "討厭布製品（超有原則的個性小妞！）",
+  "selectedSlogan": {
+    "en": "Small paws, endless love, forever home.",
+    "zh": "小小的腳爪，無盡的愛，永恆的家。"
+  },
+  "avatar": "assets/images/profile/avatar.jpg",
+  "heroImage": "assets/images/profile/hero.jpg"
+}
