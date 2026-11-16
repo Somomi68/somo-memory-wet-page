@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>灰白兔子 ｜ The Grey & White Bunny</title>
+  <meta name="description" content="灰白兔子 ｜ The Grey & White Bunny：記錄長達十年半的溫暖歲月與日常寫真。" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/images/profile/avatar.jpg" type="image/jpeg">
+</head>
+<body>
+
+  <!-- Floating Animation Particle Layer -->
+  <div id="floating-fx" class="floating-fx-container"></div>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/profile/avatar.jpg" alt="灰白兔子" class="logo-img" />
+        <span>灰白兔子 <span class="logo-sub">｜ The Grey & White Bunny</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">關於小比</a></li>
+        <li><a href="timeline.html">時光軌跡</a></li>
+        <li><a href="gallery.html">回憶寫真</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <span>2015.06.08 — 2025.12.27</span>
+      </div>
+
+      <div class="hero-photo-wrapper">
+        <div class="halo-ring"></div>
+        <img src="assets/images/profile/avatar.jpg" alt="小比" class="hero-photo" />
+      </div>
+
+      <p class="hero-dates">十年溫柔守護・一輩子最親愛的家人</p>
+
+      <div class="hero-slogan-box">
+        <div id="hero-slogan-en" class="hero-slogan-en">Small paws, endless love, forever home.</div>
+        <div id="hero-slogan-zh" class="hero-slogan-zh">小小的腳爪，無盡的愛，永恆的家。</div>
+      </div>
+
+      <div class="tribute-action-bar">
+        <button id="btn-give-star" class="tribute-btn">
+          <span>⭐️ 為小比點亮星光</span>
+          <span id="star-count" class="btn-badge">88</span>
+        </button>
+        <button id="btn-give-cherry" class="tribute-btn">
+          <span>🍒 送小比一顆櫻桃</span>
+          <span id="cherry-count" class="btn-badge">102</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Profile</span>
+        <h2 class="section-title">小比檔案室</h2>
+        <p class="section-subtitle">那個自備暖和圍兜、總是優雅端莊又超有個性的小女孩</p>
+      </div>
+
+      <div class="profile-grid">
+        <div class="profile-card-image">
+          <img src="assets/images/profile/hero.jpg" alt="端莊的小比" />
+        </div>
+
+        <div class="profile-details">
+          <div class="profile-card">
+            <div id="profile-fields-container" class="profile-field-list">
+              <!-- Dynamically populated from data/profile.json -->
+            </div>
+            <div id="traits-container" class="traits-badge-group">
+              <!-- Dynamically populated traits -->
+            </div>
+          </div>
+
+          <div class="profile-card">
+            <h4 style="margin-bottom: 0.6rem; color: var(--primary-dark);">💖 個性與小秘密</h4>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.8;">
+              小比是一隻非常有主見、聰慧而且極度療癒的兔兔。雖然對布製品有種莫名的抗拒與原則，但只要看見最愛的櫻桃，雙眼就會發亮；一旦被溫柔撫摸頭部，整隻兔兔就會像融化的棉花糖一樣癱平在地板上，用最放鬆、最信任的姿態陪伴著我們度過無數個日常。
+            </p>
+          </div>
+          <div style="display: flex; gap: 1.2rem; justify-content: flex-start; flex-wrap: wrap; margin-top: 0.5rem;">
+            <a href="timeline.html" class="tribute-btn">⏳ 進入時光軌跡</a>
+            <a href="gallery.html" class="tribute-btn">🖼️ 前往回憶寫真館</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-quote">“Small paws, endless love, forever home.”</div>
+      <p class="footer-text">灰白兔子 ｜ The Grey & White Bunny (2015.06.08 – 2025.12.27)</p>
+      <button id="back-to-top-btn" class="back-to-top">
+        <span>回到頂部 ⬆️</span>
+      </button>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
